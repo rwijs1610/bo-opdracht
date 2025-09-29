@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(62, 84, 109);
+    color: rgb(20, 163, 163);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex-basis: calc(50% - 5px);
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    background-color: transparent;
+    color: black;
+    border: 4px gray groove;
+
+    padding: 10px;
+    margin: 0;
+}
+.f1 {
+    background-color: rgba(0, 183, 255, 0.377);
+}
+.f2 {
+    background-color: rgba(48, 166, 212, 0.377);
+}
+.f3 {
+    background-color: rgba(48, 183, 236, 0.377);
+}
+.f4 {
+    background-color: rgba(16, 178, 241, 0.377);
+}
+.f5 {
+    background-color: rgba(17, 156, 211, 0.377);
+}
+.f6 {
+    background-color: rgba(29, 176, 235, 0.377);
+}
+.f7 {
+    background-color: rgba(29, 186, 248, 0.377);
+}
+.f8 {
+    background-color: rgba(13, 164, 224, 0.377);
+}
+.f9 {
+    background-color: rgba(0, 183, 255, 0.377);
+}
